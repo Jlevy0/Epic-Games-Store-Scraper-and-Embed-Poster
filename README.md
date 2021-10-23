@@ -1,6 +1,3 @@
-# Epic Games Store Scraper and Embed Poster
- This repository contains the scripts I used to create an automated web scraping pipeline that checks if the Epic Games Store has new free games. 
- The data I gather is then processed and posted to a Discord server in the form of an embed. 
 ## Introduction
 Epic Games, a development studio best known for creating Fortnite, runs an online games store. One of the ways they encourage people to use the store is to offer free games every week. 
 
