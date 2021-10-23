@@ -8,7 +8,7 @@ The data that we want is loaded in dynamically via JavaScript. As such, the usua
 ><a aria-label="Free Games, 1 of 3, Free Now, Paladins Epic Pack, Free Now - Oct 21 at 11:00 AM" role="link" href="/store/en-US/p/paladins--paladins-epic-pack"\>
 
 This has most the data we need. The name of the game, how long it'll be free for, and a link to the store page. We'll do something similar to grab the link to the promotional image they use.
-All of this data and when we found it is then saved to a CSV file. I debated using (Airflow's XComs)[https://airflow.apache.org/docs/apache-airflow/stable/concepts/xcoms.html] feature to transfer data between the two tasks, but the CSV doubles as a way to check if we've already scraped for these games before.
+All of this data and when we found it is then saved to a CSV file. I debated using [Airflow's XComs](https://airflow.apache.org/docs/apache-airflow/stable/concepts/xcoms.html) feature to transfer data between the two tasks, but the CSV doubles as a way to check if we've already scraped for these games before.
 
 ## Posting the Content
 The content is posted to a Discord server via [Discordpy's embed creation methods](https://discordpy.readthedocs.io/en/stable/api.html#embed). Here's what the final product looks like:
